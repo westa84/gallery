@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/westa84/gallery/issues"
   },
-  "homepage": "https://github.com/westa84/gallery#readme"
+  "homepage": "https://github.com/westa84/gallery#readme",
+  "dependencies": {
+    "vanilla-js": "0.0.1"
+  }
 }
