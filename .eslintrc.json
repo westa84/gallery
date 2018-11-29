@@ -5,6 +5,7 @@
     "browser": true
   },
   "globals": {
-    "gallery": true
+    "gallery": true,
+    "EventEmitter": true
   }
 }
