@@ -3,18 +3,20 @@
     // IIFE
     // Immediately-invoked function expression
 
-    class Photo {
+    class Thumb {
         constructor(url) {
             this.url = url;
         }
         render() {
             const $el = document.createElement('img');
             $el.setAttribute('src', this.url);
-            document.body.append($el);
+
+            const $app = document.querySelector('#app');
+            $app.append($el);
         }
     }
 
     window.gallery = window.gallery || {};
-    window.gallery.Photo = Photo;
+    window.gallery.Thumb = Thumb;
 
 })();
