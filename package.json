@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/westa84/gallery#readme",
   "dependencies": {
+    "eslint": "^5.9.0",
     "http-server": "^0.11.1",
     "vanilla-js": "0.0.1"
   }
