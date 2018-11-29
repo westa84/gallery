@@ -6,7 +6,9 @@
   "scripts": {
     "moje-pierwsze-polecenie": "echo Ciasteczko",
     "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-cli scripts/main.js -o dist/bundle.js --mode=development",
+    "watch": "npm run build -- --watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
     "eslint": "^5.9.0",
     "http-server": "^0.11.1",
     "super-event-emitter": "^4.1.6",
-    "vanilla-js": "0.0.1"
+    "vanilla-js": "0.0.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
   }
 }
