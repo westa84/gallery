@@ -1,6 +1,6 @@
 (function () {
     class Zoom {
-        display(image) {
+        render(image) {
             const $zoom = document.querySelector('#zoom');
             if ($zoom) {
                 $zoom.remove();

@@ -11,8 +11,8 @@
         }
 
 
-        render() {
-            gallery.db.photos.forEach(({ thumb, image }) => {
+        render(photos) {
+            photos.forEach(({ thumb, image }) => {
                 const photo = new gallery.Thumb(thumb);
                 photo.render();
 
